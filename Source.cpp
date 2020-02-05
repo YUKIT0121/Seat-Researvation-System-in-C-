@@ -1,13 +1,4 @@
-//************************************  PROGRAM IDENTIFICATION  ***************************************
-//*                                                                                                   *
-//*   PROGRAM FILE NAME:  Project1.cpp          ASSIGNMENT #:  1            Grade: _________          *
-//*                                                                                                   *
-//*   PROGRAM AUTHOR: _______________________________________________________                         *
-//*                                    Yuki Tsukamoto                                                 *
-//*                                                                                                   *
-//*   COURSE #:  CSC 36000 11                              DUE DATE:  February 05, 2020                *
-//*                                                                                                   *
-//*****************************************************************************************************
+
 //***********************************  PROGRAM DESCRIPTION  *******************************************
 //*                                                                                                   *
 //*   PROCESS: This program assign seats to passengers for Southern Comfort Airlines. It reads in     *
@@ -284,29 +275,9 @@ void printChart(ofstream& output, int Chart[8][10][3], int which)
 
 }
 
-
-
-
-
-
-//*************************************  FUNCTION HEADER  **********************************************
-void Header(ofstream& Outfile) {
-	// Receives – the output file               
-	// Task - Prints the output preamble               
-	// Returns - Nothing   
-	Outfile << setw(30) << "Yuki Tsukamoto";
-	Outfile << setw(17) << "CSC 36000";
-	Outfile << setw(15) << "Section 11" << endl;
-	Outfile << setw(30) << "Spring 2020";
-	Outfile << setw(20) << "Assignment #1" << endl;
-	Outfile << setw(35) << "-----------------------------------";
-	Outfile << setw(35) << "-----------------------------------" << endl << endl;
-	return;
-}
-
 //*************************************  FUNCTION FOOTER  **********************************************
 void Footer(ofstream& Outfile) {
-	// Receives – the output file               
+	// Receives Â– the output file               
 	// Task - Prints the output salutation               
 	// Returns - Nothing   Outfile << endl;   
 	Outfile << setw(35) << " --------------------------------- " << endl;
